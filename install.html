@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Parallax Images page</title>
+		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
+		<link rel="stylesheet" href="css/parallax.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+<body>
+
+<!-- Header -->
+
+<header>
+
+	<div>
+	    <h1>Welcome to the Parallax Images page</h1>
+	</div>
+
+</header>
+
+<!-- Section -->
+
+<section class="content">
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/img_1.jpg"></div>
+    </div>
+
+    <div class="text">
+        <h2>Setup</h2>
+        <p class='green'>Import style and scripts for web page</p>
+        <xmp class='red'>
+<!-- Style -->
+<link rel="stylesheet" href="css/parallax.css" />
+
+<!-- Scripts -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.parallax.min.js"></script>
+        </xmp>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/img_2.jpg"></div>
+    </div>
+
+    <div class="text">
+        <h2>Parallax HTML Structure</h2>
+        <p class='green'>You can add as many parallax containers as you wish.</p>
+        <xmp class='red'>
+<div class="parallax-container">
+    <div class="parallax"><img src="images/parallax.jpg"></div>
+</div>
+        </xmp>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/img_3.jpg"></div>
+    </div>
+
+    <div class="text">
+        <h2>Initialization</h2>
+        <xmp class='red'>
+$(document).ready(function(){
+    $('.parallax').parallax();
+});
+        </xmp>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/img_4.jpg"></div>
+    </div>
+
+    <div class="text">
+        <h2>Parallax Customization</h2>
+        <p class='green'>The parallax container height is what defines how much of the image can be seen. This is set to 500px by default. You can add your own style to override this.</p>
+        <p class='red'>The image height must be taller than the parallax container height.</p>
+        <xmp class='red'>
+.parallax-container {
+    height: "your height here";
+}
+        </xmp>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/img_5.jpg"></div>
+    </div>
+
+</section>
+
+
+<footer>
+	<div>
+	    <h2>Footer</h2>
+	</div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.parallax.min.js"></script>
+
+<script>
+    jQuery(document).ready(function ($) {
+        $('.parallax').parallax();
+    });
+</script>
+
+</body>
+</html>

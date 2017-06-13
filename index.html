@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Parallax Images page</title>
+		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
+		<link rel="stylesheet" href="css/parallax.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+<body>
+
+<!-- Header -->
+
+<header>
+
+	<div>
+	    <h1>Welcome to the Parallax Images page</h1>
+	</div>
+
+</header>
+
+<!-- Section -->
+
+<section class="content">
+
+    <div class="parallax-container height_6">
+        <div class="parallax"><img src="img/img_1.jpg"></div>
+    </div>
+
+    <div class="text">
+        <h2 class="green">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</h2>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/img_2.jpg"></div>
+    </div>
+
+    <div class="text">
+        <h2 class="green">Scroll up and down to really get the feeling of how Parallax Scrolling works.</h2>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/img_3.jpg"></div>
+    </div>
+
+</section>
+
+
+<footer>
+	<div>
+	    <h2>Footer</h2>
+	</div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.parallax.min.js"></script>
+
+<script>
+    jQuery(document).ready(function ($) {
+        $('.parallax').parallax();
+    });
+</script>
+
+</body>
+</html>

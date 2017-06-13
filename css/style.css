@@ -1,0 +1,82 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+    font-size: 10px;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.4rem;
+    background-color: #EEEEEE;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 2rem;
+    color: #444;
+}
+
+.content {
+    padding-bottom: 60px;
+}
+
+.height_6 {
+    height: 60rem;
+}
+
+.text {
+    text-align: justify;
+    padding: 5% 10%;
+    font-size: 1.6rem;
+}
+
+.text p {
+    margin: 1rem 0;
+}
+
+xmp {
+    font-size: 2rem;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.green {
+    color: #006600;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
