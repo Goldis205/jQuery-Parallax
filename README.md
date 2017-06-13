@@ -1,5 +1,5 @@
 # Welcome 
-Welcome to the Parallax
+Welcome to the Parallax - ver 1.0.0
 
 # Setup
 Import style and scripts for web page
